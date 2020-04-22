@@ -1,0 +1,24 @@
+* {
+    box-sizing: border-box;
+}
+body{
+  background-color: cornsilk
+}
+h1 {
+    font-family: cursive;
+    font-style: normal;
+    border-radius: 15px; 
+    border: 6px solid darkred; 
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-bottom: 10px;
+    margin-bottom: 40px;
+}
+
+h2 {
+    color: black;
+    border-left: 4px solid darkred;
+    
+}
+
