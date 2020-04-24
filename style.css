@@ -1,10 +1,11 @@
-* {
+*{
     box-sizing: border-box;
 }
 body{
   background-color: cornsilk
 }
 h1 {
+    
     font-family: cursive;
     font-style: normal;
     border-radius: 15px; 
@@ -17,8 +18,31 @@ h1 {
 }
 
 h2 {
+    
+    font-size: 30px;
     color: black;
     border-left: 4px solid darkred;
-    
+    margin-bottom: 40px;
 }
+
+p {
+    font-size:30px;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.respons {
+   background-image: url('https://www.gran-turismo.com/images/c/i1narWc4jTRNjO.jpg');    
+   background-size:  cover;
+    background-repeat: no-repeat;
+} 
+
 
